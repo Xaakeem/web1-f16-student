@@ -10,7 +10,7 @@
 body {
   color: #222;
   /* https://web.archive.org/web/20130331205934/http://cssfontstack.com/ */
-  font-family:"Avenir Light", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family:'Trirong',"Avenir Light", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   margin: 0.5em auto 1em auto;
   padding: 0 0.5em 0 0.5em;
   max-width: 600px;
