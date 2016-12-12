@@ -4,8 +4,9 @@ body {
   /* https://web.archive.org/web/20130331205934/http://cssfontstack.com/ */
   font-family:"Avenir", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Avenir", serif;
   margin: 0.5em 0 1em 0;
-  padding: 0 0.5em 0 0.5em;
+  padding: 2em;
   max-width: 600px;
+  
   
   
 
@@ -17,12 +18,13 @@ pre {
   margin: 0.5em 0;
   background: #f5f2f0;
 }
-p:first-of-type { margin-top: 0.2em; }
+p { margin-top: 0.2em; 
+	font-size: 1em;}
 
 /* Headings */
-h1 { font-size: 4em; margin-bottom: 0.3em; color: #612;}
+h1 { font-size: 3em; margin-bottom: 0.3em; color: #222;}
 an
-h2 { font-size: 1.8em; margin: 2em 0 0.2em 0; }
+h2 { font-size: 4em; margin: 2em 0 0.2em 0; }
 h3 { margin: 0.1em 0 0.2em 0; }
 h4 { margin: 0.1em 0 0.2em 0; text-decoration: underline; font-weight: normal; font-size: 1em; }
 h5 { margin: 1em 0 0.2em 0; font-size: 0.8em; }
@@ -41,6 +43,8 @@ img {
 a, a:visited {
   color: steelblue;
   text-decoration: none;
+  font-size: 1.2em;
+  padding-right: 1em;
 }
 a:hover,
 a:focus,
