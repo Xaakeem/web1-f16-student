@@ -1,0 +1,120 @@
+
+body {
+  color: #222;
+  /* https://web.archive.org/web/20130331205934/http://cssfontstack.com/ */
+  font-family:"Avenir", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Avenir", serif;
+  margin: 0.5em 0 1em 0;
+  padding: 0 0.5em 0 0.5em;
+  max-width: 600px;
+  
+  
+
+ 
+  
+}
+pre {
+  padding: 1em;
+  margin: 0.5em 0;
+  background: #f5f2f0;
+}
+p:first-of-type { margin-top: 0.2em; }
+
+/* Headings */
+h1 { font-size: 4em; margin-bottom: 0.3em; color: #612;}
+an
+h2 { font-size: 1.8em; margin: 2em 0 0.2em 0; }
+h3 { margin: 0.1em 0 0.2em 0; }
+h4 { margin: 0.1em 0 0.2em 0; text-decoration: underline; font-weight: normal; font-size: 1em; }
+h5 { margin: 1em 0 0.2em 0; font-size: 0.8em; }
+
+
+/* images */
+img {
+	margin-top: 5em;
+}
+.image-and-caption p {
+	margin: 0;
+}
+
+
+/* Links */
+a, a:visited {
+  color: steelblue;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  text-shadow: 0 0 0.2em rgba(150,150,255,0.2), 0 0 0.2em rgba(150,150,255,0.2), 0 0 0.2em rgba(150,150,255,0.2);
+  text-decoration: underline;
+}
+
+/* lists */
+ul {
+  list-style-type: none;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+ol.sections > li {
+  margin-bottom: 0.5em;
+}
+li ul { /* nested-lists */
+  margin: 5px 0 0 1em;
+  list-style-type: circle;
+}
+.decorate {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+dt {
+  font-weight: bold;
+}
+dd { margin: 0 0 0.5em 0; }
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Navigation / header
+/
+/
+/
+////////////////////////////*/
+header { margin-bottom: 3em; }
+nav {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-family: font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  letter-spacing: 0.025em;
+}
+nav ul, nav li {
+  display: inline;
+  margin-right: 0.6em;
+}
+.subtitle {
+  font-size: 0.6em;
+  font-style: italic;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
